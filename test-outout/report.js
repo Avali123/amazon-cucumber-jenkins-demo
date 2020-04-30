@@ -64,56 +64,56 @@ formatter.match({
   "location": "Login_stepdefinition.user_is_already_on_Login_Page()"
 });
 formatter.result({
-  "duration": 18320566000,
+  "duration": 16746931300,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.title_of_login_page()"
 });
 formatter.result({
-  "duration": 16716900,
+  "duration": 11996500,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.user_enters_product_name()"
 });
 formatter.result({
-  "duration": 2032446300,
+  "duration": 2599250599,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.user_clicks_on_search()"
 });
 formatter.result({
-  "duration": 4397795000,
+  "duration": 9338269201,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.user_is_on_home_page_of_product()"
 });
 formatter.result({
-  "duration": 7002843300,
+  "duration": 6999632501,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.user_add_to_carts()"
 });
 formatter.result({
-  "duration": 9047824200,
+  "duration": 9022808500,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.user_go_to_payment_section()"
 });
 formatter.result({
-  "duration": 40461300,
+  "duration": 21149501,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 18240200,
+  "duration": 16881300,
   "status": "passed"
 });
 });
