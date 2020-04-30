@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TESTNG PRACTICE">
+
+ <test name=" diff test feature">
+  
+    <classes>
+               
+        <class name="Pom_Testcases.Loginpage_test" />
+         <class name="Pom_Testcases.HomepageTest" />
+            
+                  
+      
+      
+    </classes>
+   </test> 
+</suite> 
