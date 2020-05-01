@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="44.756919">
-<testcase classname="amazon application" name="amazon add to cart Test Scenario" time="44.756919">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="40.505417">
+<testcase classname="amazon application" name="amazon add to cart Test Scenario" time="40.505417">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page....................................................passed
 Then user enters product name...............................................passed

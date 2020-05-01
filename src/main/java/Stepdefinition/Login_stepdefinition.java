@@ -7,22 +7,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
 
 public class Login_stepdefinition {
 	
 	  WebDriver wd;
 
 
-	@Given("^user is already on Login Page$")
-	public void user_is_already_on_Login_Page()   {
+	  @Given("^user is already on Login Page$")
+	  public void user_is_already_on_Login_Page()   {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\jithe\\Desktop\\avali\\chromedriver_win32\\chromedriver.exe" );
 		  wd= new ChromeDriver();
@@ -32,17 +29,16 @@ public class Login_stepdefinition {
 	   
 	}
 
-	@When("^title of login page$")
+	  @When("^title of login page$")
 	public void title_of_login_page()   {
 		
 		String tittle=wd.getTitle();
 		System.out.println("tiitle od pamazon is ::"+tittle);
-Assert.assertTrue(tittle, true);	
 
 
 	}
 
-	@Then("^user enters product name$")
+	  @Then("^user enters product name$")
 	public void user_enters_product_name()   {
 		
 		wd.findElement(By.id("twotabsearchtextbox")).sendKeys("men shoes");
@@ -50,7 +46,7 @@ Assert.assertTrue(tittle, true);
 	   
 	}
 
-	@Then("^user clicks on search$")
+	  @Then("^user clicks on search$")
 	public void user_clicks_on_search() throws InterruptedException   {
 		Thread.sleep(4000);
 				WebDriverWait wait1= new WebDriverWait(wd,30);
@@ -58,13 +54,13 @@ Assert.assertTrue(tittle, true);
 		
 	}
 
-	@Then("^user is on home page of product$")
+	  @Then("^user is on home page of product$")
 	public void user_is_on_home_page_of_product() throws InterruptedException   {
 		Thread.sleep(3000);
 		Thread.sleep(4000);
 	}
 
-	@Then("^user add to carts$")
+	  @Then("^user add to carts$")
 	public void user_add_to_carts() throws InterruptedException   {
 		
 		Thread.sleep(6000);
@@ -75,7 +71,7 @@ Assert.assertTrue(tittle, true);
 	   
 	}
 
-	@Then("^user go to payment section$")
+	  @Then("^user go to payment section$")
 	public void user_go_to_payment_section()   {
 		
 		String payment_Tittle=wd.getTitle();
@@ -84,7 +80,7 @@ Assert.assertTrue(tittle, true);
 	    
 	}
 
-	@Then("^close the browser$")
+	  @Then("^close the browser$")
 	public void close_the_browser()   {
 		
 		String tittle=wd.getTitle();
