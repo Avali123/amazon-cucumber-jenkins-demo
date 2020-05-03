@@ -13,7 +13,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 @CucumberOptions(
-        features = "C:\\Users\\jithe\\Desktop\\jithu eclipsed\\flipkart-BDD\\src\\main\\java\\features\\login.feature",
+        features = "C:\\Users\\jithe\\Desktop\\jithu eclipsed\\flipkart-BDD\\src\\main\\java\\features\\details.feature",
     	        glue = {"Stepdefinition"},
 dryRun=false,
         format = {
